@@ -1,6 +1,6 @@
 window.global = window;
 
-import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm.js';
+import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 console.log(SimpleLightbox);
