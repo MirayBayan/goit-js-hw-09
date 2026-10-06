@@ -9,8 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        gallery: resolve(__dirname, '01-gallery.html'),
-        form: resolve(__dirname, 'src/02-form.html'),
+        gallery: resolve(__dirname, './src/01-gallery.html'),
+        form: resolve(__dirname, './src/02-form.html'),
       },
     },
   },
